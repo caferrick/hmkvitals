@@ -19,7 +19,7 @@ public class Spo2Service {
         this.spo2Repository = spo2Repository;
     }
 
-
+  
     public Spo2 getLatestRead() {
         Spo2 spo2 = new Spo2();
         spo2 = spo2Repository.getLatestRead();
